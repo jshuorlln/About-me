@@ -1,0 +1,111 @@
+.food{
+  position: absolute;
+  top:0px;
+  left:0px;
+  }
+  .steak{
+    position: absolute;
+    top: 913px;
+    left:0px;
+    }
+    .gang{
+      position: absolute;
+      top:1826px;
+      left:0px;
+      }
+  .tapsi{
+    position: absolute;
+    top:150px;
+    left: 280px;
+    font-size: 50px;
+    font-family:rockwell;
+    font-weight: bold;
+    color: black;
+}
+  .taste{
+      position: absolute;
+      top:250px;
+      left: 80px;
+      font-size: 40px;
+      font-family:rockwell;
+      color: black;
+  }
+  .pork{
+    position: absolute;
+    top:1120px;
+    left: 700px;
+    font-size: 50px;
+    font-family:rockwell;
+    font-weight: bold;
+    color: black;
+}
+.porks{
+  position: absolute;
+  top:1200px;
+  left: 500px;
+  font-size: 40px;
+  font-family:rockwell;
+  color: black;
+}
+.sini{
+  position: absolute;
+  top:1920px;
+  left: 170px;
+  font-size: 50px;
+  font-family:rockwell;
+  font-weight: bold;
+  color: black;
+}
+.nigang{
+position: absolute;
+top:2000px;
+left: 80px;
+font-size: 40px;
+font-family:rockwell;
+color: black;
+}
+.menu_bar
+{
+  position: absolute;
+    top: -8px;
+    left: 190px;
+    width: 900px;
+    height: 10;
+    font-size: 20px;
+    font-family: rockwell;
+}
+.menu_bar ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul li{
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #AFD804;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #AFD804;
+  color: #000;
+}

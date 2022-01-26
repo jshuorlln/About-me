@@ -1,0 +1,145 @@
+div.pic{
+    position: absolute;
+    top:0px;
+    left:0px;
+    }
+  div.pics{
+    position: absolute;
+    top:20px;
+    }
+  div.picc{
+    position: absolute;
+    top:1820px;
+    left:0px;
+    height: 300px;
+    width: 500px;
+    }
+  div.pic1{
+    position: absolute;
+    top:750px;
+    left:20px;
+  }
+  div.pic2{
+    position: absolute;
+    top:750px;
+    left:620px;
+  }
+  div.pic3{
+    position: absolute;
+    top:1200px;
+    left:190px;
+  }
+  div.pic4{
+    position: absolute;
+    top:1870px;
+    left:50px;
+ 
+  }
+
+  p.para1{
+    position: absolute;
+    top:-60px;
+    left: 30px;
+    height: 10px;
+    width: 1000px;
+    font-size: 95px;
+    font-family:Mistral, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+  }
+  p.para2{
+    position: absolute;
+    top:120px;
+    left: 170px;
+    height: 100px;
+    width: 1000px;
+    font-size: 33px;
+    font-family:MS Reference Sans Serif;
+    text-align: left;
+    color: black;
+  }
+  p.para3{
+    position: absolute;
+    top:930px;
+    left: 345px;
+    height: 100px;
+    width: 1000px;
+    font-size: 120px;
+    font-family:Mistral, sans-serif;
+    text-align: left;
+    color: black;
+  }
+  p.para4{
+    position: absolute;
+    top:1560px;
+    left: 345px;
+    width: 1000px;
+    font-size: 120px;
+    font-family:Mistral, sans-serif;
+    text-align: left;
+    color: black;
+  }
+  p.para5{
+    position: absolute;
+    top:1870px;
+    left: 550px;
+    width: 650px;
+    background-color: #AEA079;
+    font-size: 24px;
+    font-family:Lucida Sans, sans-serif;
+    text-align: center;
+    color: black;
+  }
+  div.background{
+    position: absolute;
+    top:2000px;
+    left:-5px;
+    height: 300px;
+    width: 500px;
+  }
+  .menu_bar
+  {
+    position: absolute;
+      top: -8px;
+      left: 190px;
+      width: 900px;
+      height: 10;
+      font-size: 20px;
+      font-family: rockwell;
+  }
+  .menu_bar ul
+  {
+      display: inline-flex;
+      list-style: none;
+  }
+  ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  ul li{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+  
+  ul li a:hover{
+    background-color: #AFD804;
+    color: #000;
+  }
+  
+  ul li.active a{
+    background-color: #AFD804;
+    color: #000;
+  }
+  

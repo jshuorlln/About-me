@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+  }
+  header{
+    background-image: url(backbike.png);
+    height:912;
+    background-size: cover;
+    background-position: center;
+  }
+  .me {
+    position: fixed;
+    top:-150px;
+    left: -120px;
+   }
+   .bikehea{
+    position: absolute;
+    top:350px;
+    left: 830px;
+    width: 1000px;
+    font-size: 40px;
+    font-family:rockwell;
+    font-weight: bold;
+    color: black;
+}
+.parag{
+    position: absolute;
+    top:420px;
+    left: 900px;
+    width: 1000px;
+    font-size: 25px;
+    font-family:rockwell;
+    color: black;
+}
+.parag2{
+    position: absolute;
+    top:600px;
+    left: 900px;
+    width: 1000px;
+    font-size: 25px;
+    font-family:rockwell;
+    color: black;
+}
+.parag3{
+    position: absolute;
+    top:720px;
+    left: 900px;
+    width: 1000px;
+    font-size: 25px;
+    font-family:rockwell;
+    color: black;
+}
+.menu_bar
+{
+  position: absolute;
+    top: 142px;
+    left: 310px;
+    width: 900px;
+    height: 10;
+    font-size: 20px;
+    font-family: rockwell;
+}
+.menu_bar ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul li{
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #AFD804;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #AFD804;
+  color: #000;
+}
